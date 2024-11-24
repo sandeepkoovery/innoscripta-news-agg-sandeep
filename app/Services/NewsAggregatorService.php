@@ -51,13 +51,13 @@ class NewsAggregatorService
         return [];
     }
 
-    // public function aggregateNews(string $query = 'default', string $category = null )
-    // {
-    //     $newsAPIArticles = $this->fetchFromNewsAPI($query);
-    //     $guardianAPI = $this->fetchFromGuardianAPI($category);
+    /* public function aggregateNews(string $query = 'default', string $category = null )
+    {
+        $newsAPIArticles = $this->fetchFromNewsAPI($query);
+        $guardianAPI = $this->fetchFromGuardianAPI($category);
 
-    //     return array_merge($newsAPIArticles,$guardianAPI);
-    // }
+        return array_merge($newsAPIArticles,$guardianAPI);
+    } */
     public function aggregateNewsBasedOnPreferences($preferredSources, $preferredCategories, $preferredAuthors)
     {
         // Fetch news from external APIs and filter by the given preferences
