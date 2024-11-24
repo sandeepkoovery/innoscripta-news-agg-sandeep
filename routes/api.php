@@ -7,8 +7,6 @@ use App\Http\Controllers\NewsController;
 use App\Http\Controllers\PreferencesController;
 use App\Http\Controllers\ArticleController;
 
-
-
 /*
 |--------------------------------------------------------------------------
 | API Routes
